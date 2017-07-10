@@ -55,7 +55,6 @@ class SimpleCrawler
       end
      rescue Exception => e
        puts "Err #{page}. Exception: #{e}"
-       gets
      end
     @links.uniq
   end
